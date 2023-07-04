@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+.items{
+    background-color: white;
+    border-radius: 15px;
+    width: 310px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.img{
+    width: 280px;
+    border-radius: 10px;
+    margin: 14px;
+}
+
+.writing{
+    padding: 5px;
+    text-align: center;
+}
+
+.para1{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.para2{
+    padding: 10px;
+    font-size: 15px;
+    color: gray;
+}
